@@ -1,5 +1,7 @@
 # react-canvas-image
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/axetroy/react-canvas-image.svg)](https://greenkeeper.io/)
+
 react component for click and then download then specify content file.
 
 [Online Demo](https://axetroy.github.io/react-canvas-image/)
