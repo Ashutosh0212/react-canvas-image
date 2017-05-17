@@ -1,13 +1,13 @@
-# react-download
+# react-canvas-image
 
 react component for click and then download then specify content file.
 
-[Online Demo](https://axetroy.github.io/react-download/)
+[Online Demo](https://axetroy.github.io/react-canvas-image/)
 
 ### Installation
 
 ```bash
-npm install @axetroy/react-download
+npm install @axetroy/react-canvas-image
 ```
 
 ### Usage
@@ -15,7 +15,7 @@ npm install @axetroy/react-download
 ```javascript
 import React from 'react';
 import { render } from 'react-dom';
-import Download from '@axetroy/react-download';
+import CanvasImage from '@axetroy/react-canvas-image';
 
 const element = document.createElement('div');
 document.body.appendChild(element);
@@ -24,35 +24,28 @@ class App extends React.Component {
   render() {
     return (
       <div>
-        <Download file="test.md" content="# hello world">
-          <button type="button">Click and Download file</button>
-        </Download>
+        <CanvasImage src="https://www.google.com/logos/doodles/2017/115th-anniversary-of-the-antikythera-mechanisms-discovery-6292005859622912-l.png" />
       </div>
     );
   }
 }
 
 render(<App />, element);
+
 ```
 
 ### Props
 
-- file
-
-download file name
-
-- content
-
-the file content you want to download
+- src
 
 ### Run the Demo
 
 ```bash
-git clone https://github.com/axetroy/react-download.git
+git clone https://github.com/axetroy/react-canvas-image.git
 yarn
 yarn start
 ```
 
 ### License
 
-The [MIT License](https://github.com/axetroy/react-download/blob/master/LICENSE)
+The [MIT License](https://github.com/axetroy/react-canvas-image/blob/master/LICENSE)
